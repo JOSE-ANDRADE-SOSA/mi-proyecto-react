@@ -1,0 +1,17 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd mi-proyecto-react
+        - npm ci
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: mi-proyecto-react/build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - mi-proyecto-react/node_modules/**/*
