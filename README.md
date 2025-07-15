@@ -1,2 +1,3 @@
-# mi-proyecto-react2
+# mi-proyecto-react
+
 proyecto con despliegue continuo en AWS
