@@ -1,5 +1,8 @@
 {
-  "dependencies": {
-    "axios": "^1.10.0"
-  }
+  "name": "practica-2_2",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp -r . build"
+  },
+  "dependencies": {}
 }
